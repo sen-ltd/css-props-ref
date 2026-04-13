@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Props Ref — Interactive CSS Property Reference</title>
+  <meta name="description" content="CSS property reference with 60+ properties and interactive live previews. Switch values and see results instantly." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="app-header__inner">
+      <div class="app-header__titles">
+        <h1 id="app-title">CSS Props Ref</h1>
+        <p id="app-subtitle">60+ CSS properties with live previews</p>
+      </div>
+      <div class="app-header__controls">
+        <button id="btn-lang" class="icon-btn" aria-label="Toggle language">JA</button>
+        <button id="btn-theme" class="icon-btn" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <div class="toolbar">
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input
+          id="search"
+          type="search"
+          class="search-input"
+          placeholder="Search by property name…"
+          autocomplete="off"
+          spellcheck="false"
+        />
+      </div>
+      <span id="prop-count" class="prop-count"></span>
+    </div>
+
+    <nav id="category-bar" class="category-bar" aria-label="Categories"></nav>
+
+    <p id="no-results" class="no-results" hidden>No properties found</p>
+
+    <div id="prop-grid" class="prop-grid"></div>
+  </main>
+
+  <footer class="app-footer">
+    <p>Built by <a href="https://sen.ltd" target="_blank" rel="noopener">SEN LLC</a> &mdash; <a href="https://github.com/sen-ltd/css-props-ref" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
