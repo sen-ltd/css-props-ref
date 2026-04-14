@@ -55,3 +55,10 @@ css-props-ref/
 ## License
 
 MIT © 2026 SEN LLC (SEN 合同会社)
+
+<!-- sen-publish:links -->
+## Links
+
+- 🌐 Demo: https://sen.ltd/portfolio/css-props-ref/
+- 📝 dev.to: https://dev.to/sendotltd/a-css-property-reference-with-72-live-previews-click-a-value-see-it-apply-2eh7
+<!-- /sen-publish:links -->
